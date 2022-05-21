@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<!-- Bootstrap CSS -->
+<!-- build:css css/main.css -->
+<script type = "text/javascript" src="functions.js"></script>
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href ="css/bootstrap-social.css">
+<link rel="stylesheet" href="css/styles.css">
+
+<!-- endbuild -->
+    <title>Practicing</title>
+
+    
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script type = "text/javascript" src="function245.js"></script>
+    
+    <script type = "text/javascript" src="js/reset.js"></script>
+
+
+
+
+    
+    
+    
+</head>
+
+<body class="for-body">
+    <nav class = "navbar navbar-inverse navbar-toggleable-sm  fixed-top">
+        <div class= "container">
+            <button class= "navbar-toggler" type ="button" data-toggle="collapse" data-target="#Navbar">
+                <span class ="navbar-toggler-icon">
+    
+                </span>   
+            </button>
+            <div class="collapse navbar-collapse" id="Navbar">
+            <ul class ="navbar-nav">
+                <li class="nav-item "> <a class = "nav-link" style="font-family:'Lucida Console', 'Courier New', 'monospace';" href ="graph.html" > <span class = "fa fa-pie-chart fa-lg"></span>&nbsp;CCRO-I</a> </li>
+                <!-- <li class="nav-item "> <a class = "nav-link" href ="forms.html" > <span class = "fa fa-plus-square-o fa-lg">  Form</span></a> </li> -->
+                <li class="nav-item "> <a class = "nav-link" style="font-family:'Lucida Console', 'Courier New', 'monospace';" href ="incorporate2.html" > <span class = "fa fa-pie-chart fa-lg"></span>&nbsp;CCRO-II</a> </li>
+                <li class="nav-item "> <a class = "nav-link" style="font-family:'Lucida Console', 'Courier New', 'monospace';" href ="incorporate-extend3.html" > <span class = "fa fa-pie-chart fa-lg"></span>&nbsp;CCRO-III</a> </li>
+                <li class="nav-item active"> <a class = "nav-link" style="font-family:'Lucida Console', 'Courier New', 'monospace';" href ="in-ex-ba4.html" > <span class = "fa fa-pie-chart fa-lg"></span>&nbsp;CCRO-IV</a> </li>
+                <li class="nav-item "> <a class = "nav-link" style="font-family:'Lucida Console', 'Courier New', 'monospace';" href ="in-ex-ba-ne5.html" > <span class = "fa fa-pie-chart fa-lg"></span>&nbsp;CCRO-V</a> </li>
+                <li class="nav-item "> <a class = "nav-link" style="font-family:'Lucida Console', 'Courier New', 'monospace';" href ="in-ex-ba-ne-cr6.html" > <span class = "fa fa-pie-chart fa-lg"></span>&nbsp;CCRO-VI</a> </li>
+                <li class="nav-item "> <a class = "nav-link" style="font-family:'Lucida Console', 'Courier New', 'monospace';" href ="in-ex-ba-ne-cr-cont7.html" > <span class = "fa fa-pie-chart fa-lg"></span>&nbsp;CCRO-VII</a> </li>
+    
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br>
+
+<!-------------------------------------------------------------------------------------------->
+    
+
+    <div class="container">
+      <div class="for-btn5">
+
+      </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+      <h4 class="for">Basedon-Contrast-Compare</h4><div>&nbsp;</div>
+        <div class="row">
+            <div class="col-sm-3 label">  
+                  
+                
+                   
+                  
+                  
+                  <div class="form-check">
+                    <input type="checkbox" name="check" id="bacontcompdis"  onclick="bacontcompdis()" value=""> 
+                    <label for="bacontcompdis"><strong> &nbsp;&nbsp;&nbsp;Discuss </strong> </label>   
+                  </div>
+                  <div>&nbsp;</div>
+                  <div>
+                    <button type="button" class="btn btn-success" onclick=resetSVG()>Reset SVG</button>
+                  </div>  
+
+            </div>
+        
+            
+        
+            <div class="col-sm-7">
+              <svg width="820" height="800"></svg>
+          </div>
+          <div class="col-sm-2">
+            <a class="btn btn-outline-danger" href="in-ex-ba4.html">Incorp-Extend</a>
+            <div>&nbsp;</div>
+            <a class="btn btn-outline-danger" href="in-ba-ne4.html">Incorp-Basedon</a>
+            <div>&nbsp;</div>
+            <a class="btn btn-outline-danger" href="in-ne-cr4.html">Incorp-Negate</a>
+            <div>&nbsp;</div>
+            <a class="btn btn-outline-danger" href="in-cr-cont4.html">Incorp-Criticize</a>
+            <div>&nbsp;</div>
+            <a class="btn btn-outline-danger" href="in-cont-comp4.html">Incorp-Contrast</a>
+            <div>&nbsp;</div>
+            <a class="btn btn-outline-danger" href="ex-ba-ne4.html">Extend-Basedon</a>
+            <div>&nbsp;</div>
+            <a class="btn btn-outline-danger" href="ex-ne-cr4.html">Extend-Negate</a>
+            <div>&nbsp;</div>
+            <a class="btn btn-outline-danger" href="ex-cont-comp4.html">Extend-Contrast</a>
+            <div>&nbsp;</div>
+            <a class="btn btn-outline-danger" href="ex-cr-cont4.html">Extend-Criticize</a>
+            <div>&nbsp;</div>
+            <a class="btn btn-outline-danger" href="ba-ne-cr4.html">Basedon-Negate</a>
+            <div>&nbsp;</div>
+            <a class="btn btn-outline-danger" href="ba-cr-cont4.html">Basedon-Criticize</a>
+            <div>&nbsp;</div>
+            <a class="btn btn-outline-danger" href="ne-cr-cont4.html">Negate-Criticize</a>
+            <div>&nbsp;</div>
+            <a class="btn btn-outline-danger" href="ne-cont-comp4.html">Negate-Contrast</a>
+            <div>&nbsp;</div>
+            <a class="btn btn-outline-danger" href="cr-cont-comp4.html">Criticize-Contrast</a>
+            <div>&nbsp;</div>
+
+
+
+         </div>
+
+   
+        </div>  <!---Row-->  
+    </div>    <!---Container-->
+
+   
+
+
+        
+           
+
+
+
+    
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<!-- build:js js/main.js -->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/tether/dist/js/tether.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+<!-- endbuild -->
+
+</body>
+
+    
+
+</html>

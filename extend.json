@@ -1,0 +1,13 @@
+{
+    "nodes": [
+      {"id": "HI0902", "group":"7"},
+      {"id": "HI1001", "group":"8"},
+      {"id": "H0501", "group":"5"},
+      {"id": "HI0701-04", "group":"2"}
+    ],
+    "links": [
+     
+      {"source": "HI0902", "target": "HI0701-04", "value": "2"},
+      {"source": "HI1001", "target": "H0501", "value": "2"}
+    ]
+  }

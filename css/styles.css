@@ -1,0 +1,86 @@
+
+.awein{
+  border-style: inset;
+}
+
+
+.for-btn{
+  width: 75%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.tab-content{
+  
+  padding: 10px;
+}
+
+.for-btn2{
+  width: 75%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.for-font{
+  text-align: center;
+  
+  font-size: x-large;
+  font-family: Lucida Handwriting
+}
+.for-btn5{
+  width: 85%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.navbar-inverse
+{
+    background-color: #293949;
+    
+}
+.label{
+  line-height: 1.5;
+}
+.for{
+  text-align: center;
+ font-family: cursive;
+  height: 32px;
+}
+.for-body{
+    padding: 35px 0px 0px 0px;
+    z-index: 0;
+   
+}
+
+.links line {
+    stroke: #999;
+    stroke-opacity: 0.6;
+  }
+  body{
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+  }
+  .nodes circle {
+    stroke: #fff;
+    stroke-width: 1.5px;
+  }
+
+  .row-content{
+    margin: 0px;
+    padding: 50px 0px 50px 0px;
+    min-height: 400px;
+}
+
+.navbar-inverse
+{
+    background-color: #293949;
+    
+}
+.formodify{
+  
+  
+  
+background-color: rgb(243, 241, 241);
+}
+
+
+
+
+  

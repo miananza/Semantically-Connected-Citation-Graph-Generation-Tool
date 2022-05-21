@@ -1,0 +1,131 @@
+{
+    "nodes": [
+      {"id": "HI0902", "group":"7"},
+      {"id": "HI1001", "group":"8"},
+      {"id": "H0501", "group":"5"},
+      {"id": "HI0701-04", "group":"2"},
+      {"id": "HI0701", "group":"1"},
+      
+      {"id": "HI0701-02", "group":"2"},
+      {"id": "HI0701-03", "group":"2"},
+      {"id": "HI0701-04", "group":"2"},
+      {"id": "HI0701-05", "group":"2"},
+      {"id": "HI0701-07", "group":"2"},
+      {"id": "HI0801", "group":"4"},
+      {"id": "HI0802", "group":"4"},
+      {"id": "HI1001", "group":"8"},
+      {"id": "HI1501", "group":"4"},
+      {"id": "HI1101", "group":"6"},
+      {"id": "HI0701-04", "group":"2"},
+      
+      {"id": "HI0802-15", "group":"6"},
+      {"id": "HI1501-50", "group":"6"},
+      {"id": "HI1501-51", "group":"6"},
+      {"id": "HI0501", "group":"1"},
+      {"id": "HI0801", "group":"4"},
+      {"id": "HI0802", "group":"4"},
+      {"id": "HI1001", "group":"8"},
+      {"id": "HI1101", "group":"6"},
+      {"id": "HI0802-11", "group":"1"},
+      {"id": "HI0701", "group":"1"},
+      {"id": "HI0801", "group":"4"},
+      {"id": "HI0802", "group":"4"},
+      {"id": "HI0901", "group":"1"},
+      {"id": "HI0902", "group":"7"},
+      {"id": "HI1001", "group":"8"},
+      {"id": "HI1301", "group":"1"},
+      {"id": "HI1501", "group":"4"},
+      {"id": "HI0501-01", "group":"1"},
+      {"id": "H0501", "group":"5"},
+      {"id": "HI1101", "group":"6"},
+      
+      {"id": "HI0701-07", "group":"2"},
+      {"id": "HI0701-08", "group":"3"},
+      {"id": "HI0701-09", "group":"3"},
+      {"id": "HI0701-10", "group":"3"},
+      {"id": "HI0701-11", "group":"3"},
+      {"id": "HI0701-12", "group":"3"},
+      {"id": "HI0701-13", "group":"3"},
+      {"id": "HI0701-14", "group":"3"},
+      {"id": "HI0701-15", "group":"3"},
+  
+      {"id": "HI0801-03", "group":"1"},
+      
+      
+      {"id": "HI0802-14", "group":"3"},
+      {"id": "HI0902-02", "group":"3"},
+      {"id": "HI0902-07", "group":"3"},
+      {"id": "HI1301-02", "group":"3"},
+      {"id": "HI1301-03", "group":"3"},
+      {"id": "HI1301-09", "group":"3"},
+      {"id": "HI1501-03", "group":"3"},
+      {"id": "HI1501-04", "group":"3"},
+      {"id": "HI1501-37", "group":"3"},
+      {"id": "HI1501-41", "group":"3"}
+     
+  
+   
+    ],
+    "links": [
+     
+      {"source": "HI0902", "target": "HI0701-04", "value": "2"},
+      {"source": "HI1001", "target": "H0501", "value": "2"},
+      {"source": "HI0701", "target": "HI0701-02", "value": "4"},
+      {"source": "HI0701", "target": "HI0701-03", "value": "4"},
+      {"source": "HI0701", "target": "HI0701-04", "value": "4"},
+      {"source": "HI0701", "target": "HI0701-05", "value": "4"},
+      {"source": "HI0701", "target": "HI0701-07", "value": "4"},
+      {"source": "HI0701", "target": "HI0701-07", "value": "4"},
+      {"source": "HI0802", "target": "HI0701-04", "value": "5"},
+      {"source": "HI0802", "target": "HI0802-15", "value": "5"},
+      {"source": "HI1001", "target": "HI0801", "value": "5"},
+      {"source": "HI1101", "target": "HI0701-04", "value": "5"},
+      {"source": "HI1501", "target": "HI1501-50", "value": "5"},
+      {"source": "HI1501", "target": "HI1501-51", "value": "5"},
+      {"source": "HI0801", "target": "HI0501", "value": "6"},
+      {"source": "HI1001", "target": "HI0801", "value": "6"},
+      {"source": "HI1101", "target": "HI0802-11", "value": "6"},
+      {"source": "HI1101", "target": "HI0801", "value": "6"},
+      {"source": "HI1101", "target": "HI0802", "value": "6"},
+      {"source": "HI0701", "target": "HI0701-08", "value": "7"},
+      {"source": "HI0701", "target": "HI0701-09", "value": "7"},
+      {"source": "HI0701", "target": "HI0701-10", "value": "7"},
+      {"source": "HI0701", "target": "HI0701-11", "value": "7"},
+      {"source": "HI0701", "target": "HI0701-12", "value": "7"},
+      {"source": "HI0701", "target": "HI0701-13", "value": "7"},
+      {"source": "HI0701", "target": "HI0701-14", "value": "7"},
+      {"source": "HI0701", "target": "HI0701-15", "value": "7"},
+   {"source": "HI0801", "target": "HI0701-08", "value": "7"},
+      {"source": "HI0801", "target": "HI0701-07", "value": "7"},
+      {"source": "HI0801", "target": "HI0701-12", "value": "7"},
+      {"source": "HI0801", "target": "HI0701", "value": "7"},
+      {"source": "HI0801", "target": "HI0701-09", "value": "7"},
+      
+      {"source": "HI0802", "target": "HI0802-14", "value": "7"},
+      {"source": "HI0901", "target": "HI1001", "value": "7"},
+  
+  
+      {"source": "HI0902", "target": "HI0801-03", "value": "7"},
+      {"source": "HI0902", "target": "HI0902-02", "value": "7"},
+      {"source": "HI0902", "target": "HI0902-07", "value": "7"},
+      {"source": "HI0902", "target": "H0501", "value": "7"},
+  
+      {"source": "HI1101", "target": "HI0801", "value": "7"},
+      {"source": "HI1101", "target": "HI0802", "value": "7"},
+      {"source": "HI1301", "target": "HI1301-02", "value": "7"},
+      {"source": "HI1301", "target": "HI1301-03", "value": "7"},
+      {"source": "HI1301", "target": "HI0901", "value": "7"},
+      {"source": "HI1301", "target": "HI0801", "value": "7"},
+      {"source": "HI1301", "target": "HI1301-09", "value": "7"},
+  
+  
+      {"source": "HI1501", "target": "HI1501-03", "value": "7"},
+      {"source": "HI1501", "target": "HI1501-04", "value": "7"},
+      {"source": "HI1501", "target": "HI0501-01", "value": "7"},
+      {"source": "HI1501", "target": "HI1501-37", "value": "7"},
+      {"source": "HI1501", "target": "HI1501-41", "value": "7"}
+    
+  
+
+    ]
+  }

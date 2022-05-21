@@ -1,0 +1,22 @@
+{
+    "nodes": [
+      {"id": "HI0701", "group":"1"},
+      
+      {"id": "HI0701-02", "group":"2"},
+      {"id": "HI0701-03", "group":"2"},
+      {"id": "HI0701-04", "group":"2"},
+      {"id": "HI0701-05", "group":"2"},
+      {"id": "HI0701-07", "group":"2"}
+     
+    ],
+    "links": [
+     
+     {"source": "HI0701", "target": "HI0701-02", "value": "4"},
+      {"source": "HI0701", "target": "HI0701-03", "value": "4"},
+      {"source": "HI0701", "target": "HI0701-04", "value": "4"},
+      {"source": "HI0701", "target": "HI0701-05", "value": "4"},
+      {"source": "HI0701", "target": "HI0701-07", "value": "4"},
+      {"source": "HI0701", "target": "HI0701-07", "value": "4"}
+
+    ]
+  }
